@@ -8,7 +8,7 @@ const score = document.querySelector('#score');
 
 let result = 0;
 let hitPosition;
-let currentTime = 5;
+let currentTime = 60;
 let timerId = null;
 
 function randomSquare() {
