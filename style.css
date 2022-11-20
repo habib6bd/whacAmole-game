@@ -2,19 +2,18 @@
     text-align: center;
     margin: 0 auto;
     display: flex;
-    width: 606px;
-    height: 606px;
+    max-width: 606px;
+    max-height: 606px;
     flex-wrap: wrap;
 }
 
 .square {
-    width: 200px;
+    max-width: 200px;
     height: 200px;
-    border: 1px solid black;
 }
 
 .mole {
-    
+
     background-image: url('images.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
